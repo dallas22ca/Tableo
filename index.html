@@ -1,0 +1,2822 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Tableo : Lightweight jQuery plugin for adding a filter to a table" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Tableo</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dallas22ca/Tableo">View on GitHub</a>
+
+          <h1 id="project_title">Tableo</h1>
+          <h2 id="project_tagline">Lightweight jQuery plugin for adding a filter to a table</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/dallas22ca/Tableo/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/dallas22ca/Tableo/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome to Table-OH!</h3>
+
+<p>Table from <a href="http://erikastokes.com/mysql-help/mysql-country-table.php">this page</a>.</p>
+
+
+
+&lt;script src="https://raw.github.com/dallas22ca/Tableo/master/tableo.jquery.js" type="text/javascript"
+
+$(document).ready(function(){
+    $(".tableo").tableo();
+});
+<table>
+<tr>
+<th>Flag</th>
+    <th>Short Name</th>
+    <th>Long Name</th>
+    <th>ISO 2</th>
+    <th>ISO 3</th>
+    <th>ISO #</th>
+    <th>UN<br>Member</th>
+    <th>Calling<br>code</th>
+    <th>ccTLD</th>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AF.png" alt="Flag of Afghanistan"></td>
+    <td>Afghanistan</td>
+    <td>Islamic Republic of Afghanistan</td>
+    <td>AF</td>
+    <td>AFG</td>
+    <td>004</td>
+    <td>yes</td>
+    <td>93</td>
+    <td>.af</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AX.png" alt="Flag of Aland Islands"></td>
+    <td>Aland Islands</td>
+    <td>Åland Islands</td>
+    <td>AX</td>
+    <td>ALA</td>
+    <td>248</td>
+    <td>no</td>
+    <td>358</td>
+    <td>.ax</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AL.png" alt="Flag of Albania"></td>
+    <td>Albania</td>
+    <td>Republic of Albania</td>
+    <td>AL</td>
+    <td>ALB</td>
+    <td>008</td>
+    <td>yes</td>
+    <td>355</td>
+    <td>.al</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/DZ.png" alt="Flag of Algeria"></td>
+    <td>Algeria</td>
+    <td>People's Democratic Republic of Algeria</td>
+    <td>DZ</td>
+    <td>DZA</td>
+    <td>012</td>
+    <td>yes</td>
+    <td>213</td>
+    <td>.dz</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AS.png" alt="Flag of American Samoa"></td>
+    <td>American Samoa</td>
+    <td>American Samoa</td>
+    <td>AS</td>
+    <td>ASM</td>
+    <td>016</td>
+    <td>no</td>
+    <td>1+684</td>
+    <td>.as</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AD.png" alt="Flag of Andorra"></td>
+    <td>Andorra</td>
+    <td>Principality of Andorra</td>
+    <td>AD</td>
+    <td>AND</td>
+    <td>020</td>
+    <td>yes</td>
+    <td>376</td>
+    <td>.ad</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AO.png" alt="Flag of Angola"></td>
+    <td>Angola</td>
+    <td>Republic of Angola</td>
+    <td>AO</td>
+    <td>AGO</td>
+    <td>024</td>
+    <td>yes</td>
+    <td>244</td>
+    <td>.ao</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AI.png" alt="Flag of Anguilla"></td>
+    <td>Anguilla</td>
+    <td>Anguilla</td>
+    <td>AI</td>
+    <td>AIA</td>
+    <td>660</td>
+    <td>no</td>
+    <td>1+264</td>
+    <td>.ai</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AQ.png" alt="Flag of Antarctica"></td>
+    <td>Antarctica</td>
+    <td>Antarctica</td>
+    <td>AQ</td>
+    <td>ATA</td>
+    <td>010</td>
+    <td>no</td>
+    <td>672</td>
+    <td>.aq</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AG.png" alt="Flag of Antigua and Barbuda"></td>
+    <td>Antigua and Barbuda</td>
+    <td>Antigua and Barbuda</td>
+    <td>AG</td>
+    <td>ATG</td>
+    <td>028</td>
+    <td>yes</td>
+    <td>1+268</td>
+    <td>.ag</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AR.png" alt="Flag of Argentina"></td>
+    <td>Argentina</td>
+    <td>Argentine Republic</td>
+    <td>AR</td>
+    <td>ARG</td>
+    <td>032</td>
+    <td>yes</td>
+    <td>54</td>
+    <td>.ar</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AM.png" alt="Flag of Armenia"></td>
+    <td>Armenia</td>
+    <td>Republic of Armenia</td>
+    <td>AM</td>
+    <td>ARM</td>
+    <td>051</td>
+    <td>yes</td>
+    <td>374</td>
+    <td>.am</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AW.png" alt="Flag of Aruba"></td>
+    <td>Aruba</td>
+    <td>Aruba</td>
+    <td>AW</td>
+    <td>ABW</td>
+    <td>533</td>
+    <td>no</td>
+    <td>297</td>
+    <td>.aw</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AU.png" alt="Flag of Australia"></td>
+    <td>Australia</td>
+    <td>Commonwealth of Australia</td>
+    <td>AU</td>
+    <td>AUS</td>
+    <td>036</td>
+    <td>yes</td>
+    <td>61</td>
+    <td>.au</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AT.png" alt="Flag of Austria"></td>
+    <td>Austria</td>
+    <td>Republic of Austria</td>
+    <td>AT</td>
+    <td>AUT</td>
+    <td>040</td>
+    <td>yes</td>
+    <td>43</td>
+    <td>.at</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AZ.png" alt="Flag of Azerbaijan"></td>
+    <td>Azerbaijan</td>
+    <td>Republic of Azerbaijan</td>
+    <td>AZ</td>
+    <td>AZE</td>
+    <td>031</td>
+    <td>yes</td>
+    <td>994</td>
+    <td>.az</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BS.png" alt="Flag of Bahamas"></td>
+    <td>Bahamas</td>
+    <td>Commonwealth of The Bahamas</td>
+    <td>BS</td>
+    <td>BHS</td>
+    <td>044</td>
+    <td>yes</td>
+    <td>1+242</td>
+    <td>.bs</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BH.png" alt="Flag of Bahrain"></td>
+    <td>Bahrain</td>
+    <td>Kingdom of Bahrain</td>
+    <td>BH</td>
+    <td>BHR</td>
+    <td>048</td>
+    <td>yes</td>
+    <td>973</td>
+    <td>.bh</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BD.png" alt="Flag of Bangladesh"></td>
+    <td>Bangladesh</td>
+    <td>People's Republic of Bangladesh</td>
+    <td>BD</td>
+    <td>BGD</td>
+    <td>050</td>
+    <td>yes</td>
+    <td>880</td>
+    <td>.bd</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BB.png" alt="Flag of Barbados"></td>
+    <td>Barbados</td>
+    <td>Barbados</td>
+    <td>BB</td>
+    <td>BRB</td>
+    <td>052</td>
+    <td>yes</td>
+    <td>1+246</td>
+    <td>.bb</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BY.png" alt="Flag of Belarus"></td>
+    <td>Belarus</td>
+    <td>Republic of Belarus</td>
+    <td>BY</td>
+    <td>BLR</td>
+    <td>112</td>
+    <td>yes</td>
+    <td>375</td>
+    <td>.by</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BE.png" alt="Flag of Belgium"></td>
+    <td>Belgium</td>
+    <td>Kingdom of Belgium</td>
+    <td>BE</td>
+    <td>BEL</td>
+    <td>056</td>
+    <td>yes</td>
+    <td>32</td>
+    <td>.be</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BZ.png" alt="Flag of Belize"></td>
+    <td>Belize</td>
+    <td>Belize</td>
+    <td>BZ</td>
+    <td>BLZ</td>
+    <td>084</td>
+    <td>yes</td>
+    <td>501</td>
+    <td>.bz</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BJ.png" alt="Flag of Benin"></td>
+    <td>Benin</td>
+    <td>Republic of Benin</td>
+    <td>BJ</td>
+    <td>BEN</td>
+    <td>204</td>
+    <td>yes</td>
+    <td>229</td>
+    <td>.bj</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BM.png" alt="Flag of Bermuda"></td>
+    <td>Bermuda</td>
+    <td>Bermuda Islands</td>
+    <td>BM</td>
+    <td>BMU</td>
+    <td>060</td>
+    <td>no</td>
+    <td>1+441</td>
+    <td>.bm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BT.png" alt="Flag of Bhutan"></td>
+    <td>Bhutan</td>
+    <td>Kingdom of Bhutan</td>
+    <td>BT</td>
+    <td>BTN</td>
+    <td>064</td>
+    <td>yes</td>
+    <td>975</td>
+    <td>.bt</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BO.png" alt="Flag of Bolivia"></td>
+    <td>Bolivia</td>
+    <td>Plurinational State of Bolivia</td>
+    <td>BO</td>
+    <td>BOL</td>
+    <td>068</td>
+    <td>yes</td>
+    <td>591</td>
+    <td>.bo</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BQ.png" alt="Flag of Bonaire, Sint Eustatius and Saba"></td>
+    <td>Bonaire, Sint Eustatius and Saba</td>
+    <td>Bonaire, Sint Eustatius and Saba</td>
+    <td>BQ</td>
+    <td>BES</td>
+    <td>535</td>
+    <td>no</td>
+    <td>599</td>
+    <td>.bq</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BA.png" alt="Flag of Bosnia and Herzegovina"></td>
+    <td>Bosnia and Herzegovina</td>
+    <td>Bosnia and Herzegovina</td>
+    <td>BA</td>
+    <td>BIH</td>
+    <td>070</td>
+    <td>yes</td>
+    <td>387</td>
+    <td>.ba</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BW.png" alt="Flag of Botswana"></td>
+    <td>Botswana</td>
+    <td>Republic of Botswana</td>
+    <td>BW</td>
+    <td>BWA</td>
+    <td>072</td>
+    <td>yes</td>
+    <td>267</td>
+    <td>.bw</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BV.png" alt="Flag of Bouvet Island"></td>
+    <td>Bouvet Island</td>
+    <td>Bouvet Island</td>
+    <td>BV</td>
+    <td>BVT</td>
+    <td>074</td>
+    <td>no</td>
+    <td>NONE</td>
+    <td>.bv</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BR.png" alt="Flag of Brazil"></td>
+    <td>Brazil</td>
+    <td>Federative Republic of Brazil</td>
+    <td>BR</td>
+    <td>BRA</td>
+    <td>076</td>
+    <td>yes</td>
+    <td>55</td>
+    <td>.br</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/IO.png" alt="Flag of British Indian Ocean Territory"></td>
+    <td>British Indian Ocean Territory</td>
+    <td>British Indian Ocean Territory</td>
+    <td>IO</td>
+    <td>IOT</td>
+    <td>086</td>
+    <td>no</td>
+    <td>246</td>
+    <td>.io</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BN.png" alt="Flag of Brunei"></td>
+    <td>Brunei</td>
+    <td>Brunei Darussalam</td>
+    <td>BN</td>
+    <td>BRN</td>
+    <td>096</td>
+    <td>yes</td>
+    <td>673</td>
+    <td>.bn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BG.png" alt="Flag of Bulgaria"></td>
+    <td>Bulgaria</td>
+    <td>Republic of Bulgaria</td>
+    <td>BG</td>
+    <td>BGR</td>
+    <td>100</td>
+    <td>yes</td>
+    <td>359</td>
+    <td>.bg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BF.png" alt="Flag of Burkina Faso"></td>
+    <td>Burkina Faso</td>
+    <td>Burkina Faso</td>
+    <td>BF</td>
+    <td>BFA</td>
+    <td>854</td>
+    <td>yes</td>
+    <td>226</td>
+    <td>.bf</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BI.png" alt="Flag of Burundi"></td>
+    <td>Burundi</td>
+    <td>Republic of Burundi</td>
+    <td>BI</td>
+    <td>BDI</td>
+    <td>108</td>
+    <td>yes</td>
+    <td>257</td>
+    <td>.bi</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KH.png" alt="Flag of Cambodia"></td>
+    <td>Cambodia</td>
+    <td>Kingdom of Cambodia</td>
+    <td>KH</td>
+    <td>KHM</td>
+    <td>116</td>
+    <td>yes</td>
+    <td>855</td>
+    <td>.kh</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CM.png" alt="Flag of Cameroon"></td>
+    <td>Cameroon</td>
+    <td>Republic of Cameroon</td>
+    <td>CM</td>
+    <td>CMR</td>
+    <td>120</td>
+    <td>yes</td>
+    <td>237</td>
+    <td>.cm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CA.png" alt="Flag of Canada"></td>
+    <td>Canada</td>
+    <td>Canada</td>
+    <td>CA</td>
+    <td>CAN</td>
+    <td>124</td>
+    <td>yes</td>
+    <td>1</td>
+    <td>.ca</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CV.png" alt="Flag of Cape Verde"></td>
+    <td>Cape Verde</td>
+    <td>Republic of Cape Verde</td>
+    <td>CV</td>
+    <td>CPV</td>
+    <td>132</td>
+    <td>yes</td>
+    <td>238</td>
+    <td>.cv</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KY.png" alt="Flag of Cayman Islands"></td>
+    <td>Cayman Islands</td>
+    <td>The Cayman Islands</td>
+    <td>KY</td>
+    <td>CYM</td>
+    <td>136</td>
+    <td>no</td>
+    <td>1+345</td>
+    <td>.ky</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CF.png" alt="Flag of Central African Republic"></td>
+    <td>Central African Republic</td>
+    <td>Central African Republic</td>
+    <td>CF</td>
+    <td>CAF</td>
+    <td>140</td>
+    <td>yes</td>
+    <td>236</td>
+    <td>.cf</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TD.png" alt="Flag of Chad"></td>
+    <td>Chad</td>
+    <td>Republic of Chad</td>
+    <td>TD</td>
+    <td>TCD</td>
+    <td>148</td>
+    <td>yes</td>
+    <td>235</td>
+    <td>.td</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CL.png" alt="Flag of Chile"></td>
+    <td>Chile</td>
+    <td>Republic of Chile</td>
+    <td>CL</td>
+    <td>CHL</td>
+    <td>152</td>
+    <td>yes</td>
+    <td>56</td>
+    <td>.cl</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CN.png" alt="Flag of China"></td>
+    <td>China</td>
+    <td>People's Republic of China</td>
+    <td>CN</td>
+    <td>CHN</td>
+    <td>156</td>
+    <td>yes</td>
+    <td>86</td>
+    <td>.cn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CX.png" alt="Flag of Christmas Island"></td>
+    <td>Christmas Island</td>
+    <td>Christmas Island</td>
+    <td>CX</td>
+    <td>CXR</td>
+    <td>162</td>
+    <td>no</td>
+    <td>61</td>
+    <td>.cx</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CC.png" alt="Flag of Cocos (Keeling) Islands"></td>
+    <td>Cocos (Keeling) Islands</td>
+    <td>Cocos (Keeling) Islands</td>
+    <td>CC</td>
+    <td>CCK</td>
+    <td>166</td>
+    <td>no</td>
+    <td>61</td>
+    <td>.cc</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CO.png" alt="Flag of Colombia"></td>
+    <td>Colombia</td>
+    <td>Republic of Colombia</td>
+    <td>CO</td>
+    <td>COL</td>
+    <td>170</td>
+    <td>yes</td>
+    <td>57</td>
+    <td>.co</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KM.png" alt="Flag of Comoros"></td>
+    <td>Comoros</td>
+    <td>Union of the Comoros</td>
+    <td>KM</td>
+    <td>COM</td>
+    <td>174</td>
+    <td>yes</td>
+    <td>269</td>
+    <td>.km</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CG.png" alt="Flag of Congo"></td>
+    <td>Congo</td>
+    <td>Republic of the Congo</td>
+    <td>CG</td>
+    <td>COG</td>
+    <td>178</td>
+    <td>yes</td>
+    <td>242</td>
+    <td>.cg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CK.png" alt="Flag of Cook Islands"></td>
+    <td>Cook Islands</td>
+    <td>Cook Islands</td>
+    <td>CK</td>
+    <td>COK</td>
+    <td>184</td>
+    <td>some</td>
+    <td>682</td>
+    <td>.ck</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CR.png" alt="Flag of Costa Rica"></td>
+    <td>Costa Rica</td>
+    <td>Republic of Costa Rica</td>
+    <td>CR</td>
+    <td>CRI</td>
+    <td>188</td>
+    <td>yes</td>
+    <td>506</td>
+    <td>.cr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CI.png" alt="Flag of Cote d'ivoire (Ivory Coast)"></td>
+    <td>Cote d'ivoire (Ivory Coast)</td>
+    <td>Republic of Côte D'Ivoire (Ivory Coast)</td>
+    <td>CI</td>
+    <td>CIV</td>
+    <td>384</td>
+    <td>yes</td>
+    <td>225</td>
+    <td>.ci</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/HR.png" alt="Flag of Croatia"></td>
+    <td>Croatia</td>
+    <td>Republic of Croatia</td>
+    <td>HR</td>
+    <td>HRV</td>
+    <td>191</td>
+    <td>yes</td>
+    <td>385</td>
+    <td>.hr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CU.png" alt="Flag of Cuba"></td>
+    <td>Cuba</td>
+    <td>Republic of Cuba</td>
+    <td>CU</td>
+    <td>CUB</td>
+    <td>192</td>
+    <td>yes</td>
+    <td>53</td>
+    <td>.cu</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CW.png" alt="Flag of Curacao"></td>
+    <td>Curacao</td>
+    <td>Curaçao</td>
+    <td>CW</td>
+    <td>CUW</td>
+    <td>531</td>
+    <td>no</td>
+    <td>599</td>
+    <td>.cw</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CY.png" alt="Flag of Cyprus"></td>
+    <td>Cyprus</td>
+    <td>Republic of Cyprus</td>
+    <td>CY</td>
+    <td>CYP</td>
+    <td>196</td>
+    <td>yes</td>
+    <td>357</td>
+    <td>.cy</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CZ.png" alt="Flag of Czech Republic"></td>
+    <td>Czech Republic</td>
+    <td>Czech Republic</td>
+    <td>CZ</td>
+    <td>CZE</td>
+    <td>203</td>
+    <td>yes</td>
+    <td>420</td>
+    <td>.cz</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CD.png" alt="Flag of Democratic Republic of the Congo"></td>
+    <td>Democratic Republic of the Congo</td>
+    <td>Democratic Republic of the Congo</td>
+    <td>CD</td>
+    <td>COD</td>
+    <td>180</td>
+    <td>yes</td>
+    <td>243</td>
+    <td>.cd</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/DK.png" alt="Flag of Denmark"></td>
+    <td>Denmark</td>
+    <td>Kingdom of Denmark</td>
+    <td>DK</td>
+    <td>DNK</td>
+    <td>208</td>
+    <td>yes</td>
+    <td>45</td>
+    <td>.dk</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/DJ.png" alt="Flag of Djibouti"></td>
+    <td>Djibouti</td>
+    <td>Republic of Djibouti</td>
+    <td>DJ</td>
+    <td>DJI</td>
+    <td>262</td>
+    <td>yes</td>
+    <td>253</td>
+    <td>.dj</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/DM.png" alt="Flag of Dominica"></td>
+    <td>Dominica</td>
+    <td>Commonwealth of Dominica</td>
+    <td>DM</td>
+    <td>DMA</td>
+    <td>212</td>
+    <td>yes</td>
+    <td>1+767</td>
+    <td>.dm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/DO.png" alt="Flag of Dominican Republic"></td>
+    <td>Dominican Republic</td>
+    <td>Dominican Republic</td>
+    <td>DO</td>
+    <td>DOM</td>
+    <td>214</td>
+    <td>yes</td>
+    <td>1+809, 8</td>
+    <td>.do</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/EC.png" alt="Flag of Ecuador"></td>
+    <td>Ecuador</td>
+    <td>Republic of Ecuador</td>
+    <td>EC</td>
+    <td>ECU</td>
+    <td>218</td>
+    <td>yes</td>
+    <td>593</td>
+    <td>.ec</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/EG.png" alt="Flag of Egypt"></td>
+    <td>Egypt</td>
+    <td>Arab Republic of Egypt</td>
+    <td>EG</td>
+    <td>EGY</td>
+    <td>818</td>
+    <td>yes</td>
+    <td>20</td>
+    <td>.eg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SV.png" alt="Flag of El Salvador"></td>
+    <td>El Salvador</td>
+    <td>Republic of El Salvador</td>
+    <td>SV</td>
+    <td>SLV</td>
+    <td>222</td>
+    <td>yes</td>
+    <td>503</td>
+    <td>.sv</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GQ.png" alt="Flag of Equatorial Guinea"></td>
+    <td>Equatorial Guinea</td>
+    <td>Republic of Equatorial Guinea</td>
+    <td>GQ</td>
+    <td>GNQ</td>
+    <td>226</td>
+    <td>yes</td>
+    <td>240</td>
+    <td>.gq</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ER.png" alt="Flag of Eritrea"></td>
+    <td>Eritrea</td>
+    <td>State of Eritrea</td>
+    <td>ER</td>
+    <td>ERI</td>
+    <td>232</td>
+    <td>yes</td>
+    <td>291</td>
+    <td>.er</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/EE.png" alt="Flag of Estonia"></td>
+    <td>Estonia</td>
+    <td>Republic of Estonia</td>
+    <td>EE</td>
+    <td>EST</td>
+    <td>233</td>
+    <td>yes</td>
+    <td>372</td>
+    <td>.ee</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ET.png" alt="Flag of Ethiopia"></td>
+    <td>Ethiopia</td>
+    <td>Federal Democratic Republic of Ethiopia</td>
+    <td>ET</td>
+    <td>ETH</td>
+    <td>231</td>
+    <td>yes</td>
+    <td>251</td>
+    <td>.et</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/FK.png" alt="Flag of Falkland Islands (Malvinas)"></td>
+    <td>Falkland Islands (Malvinas)</td>
+    <td>The Falkland Islands (Malvinas)</td>
+    <td>FK</td>
+    <td>FLK</td>
+    <td>238</td>
+    <td>no</td>
+    <td>500</td>
+    <td>.fk</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/FO.png" alt="Flag of Faroe Islands"></td>
+    <td>Faroe Islands</td>
+    <td>The Faroe Islands</td>
+    <td>FO</td>
+    <td>FRO</td>
+    <td>234</td>
+    <td>no</td>
+    <td>298</td>
+    <td>.fo</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/FJ.png" alt="Flag of Fiji"></td>
+    <td>Fiji</td>
+    <td>Republic of Fiji</td>
+    <td>FJ</td>
+    <td>FJI</td>
+    <td>242</td>
+    <td>yes</td>
+    <td>679</td>
+    <td>.fj</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/FI.png" alt="Flag of Finland"></td>
+    <td>Finland</td>
+    <td>Republic of Finland</td>
+    <td>FI</td>
+    <td>FIN</td>
+    <td>246</td>
+    <td>yes</td>
+    <td>358</td>
+    <td>.fi</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/FR.png" alt="Flag of France"></td>
+    <td>France</td>
+    <td>French Republic</td>
+    <td>FR</td>
+    <td>FRA</td>
+    <td>250</td>
+    <td>yes</td>
+    <td>33</td>
+    <td>.fr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GF.png" alt="Flag of French Guiana"></td>
+    <td>French Guiana</td>
+    <td>French Guiana</td>
+    <td>GF</td>
+    <td>GUF</td>
+    <td>254</td>
+    <td>no</td>
+    <td>594</td>
+    <td>.gf</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PF.png" alt="Flag of French Polynesia"></td>
+    <td>French Polynesia</td>
+    <td>French Polynesia</td>
+    <td>PF</td>
+    <td>PYF</td>
+    <td>258</td>
+    <td>no</td>
+    <td>689</td>
+    <td>.pf</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TF.png" alt="Flag of French Southern Territories"></td>
+    <td>French Southern Territories</td>
+    <td>French Southern Territories</td>
+    <td>TF</td>
+    <td>ATF</td>
+    <td>260</td>
+    <td>no</td>
+    <td>?</td>
+    <td>.tf</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GA.png" alt="Flag of Gabon"></td>
+    <td>Gabon</td>
+    <td>Gabonese Republic</td>
+    <td>GA</td>
+    <td>GAB</td>
+    <td>266</td>
+    <td>yes</td>
+    <td>241</td>
+    <td>.ga</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GM.png" alt="Flag of Gambia"></td>
+    <td>Gambia</td>
+    <td>Republic of The Gambia</td>
+    <td>GM</td>
+    <td>GMB</td>
+    <td>270</td>
+    <td>yes</td>
+    <td>220</td>
+    <td>.gm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GE.png" alt="Flag of Georgia"></td>
+    <td>Georgia</td>
+    <td>Georgia</td>
+    <td>GE</td>
+    <td>GEO</td>
+    <td>268</td>
+    <td>yes</td>
+    <td>995</td>
+    <td>.ge</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/DE.png" alt="Flag of Germany"></td>
+    <td>Germany</td>
+    <td>Federal Republic of Germany</td>
+    <td>DE</td>
+    <td>DEU</td>
+    <td>276</td>
+    <td>yes</td>
+    <td>49</td>
+    <td>.de</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GH.png" alt="Flag of Ghana"></td>
+    <td>Ghana</td>
+    <td>Republic of Ghana</td>
+    <td>GH</td>
+    <td>GHA</td>
+    <td>288</td>
+    <td>yes</td>
+    <td>233</td>
+    <td>.gh</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GI.png" alt="Flag of Gibraltar"></td>
+    <td>Gibraltar</td>
+    <td>Gibraltar</td>
+    <td>GI</td>
+    <td>GIB</td>
+    <td>292</td>
+    <td>no</td>
+    <td>350</td>
+    <td>.gi</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GR.png" alt="Flag of Greece"></td>
+    <td>Greece</td>
+    <td>Hellenic Republic</td>
+    <td>GR</td>
+    <td>GRC</td>
+    <td>300</td>
+    <td>yes</td>
+    <td>30</td>
+    <td>.gr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GL.png" alt="Flag of Greenland"></td>
+    <td>Greenland</td>
+    <td>Greenland</td>
+    <td>GL</td>
+    <td>GRL</td>
+    <td>304</td>
+    <td>no</td>
+    <td>299</td>
+    <td>.gl</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GD.png" alt="Flag of Grenada"></td>
+    <td>Grenada</td>
+    <td>Grenada</td>
+    <td>GD</td>
+    <td>GRD</td>
+    <td>308</td>
+    <td>yes</td>
+    <td>1+473</td>
+    <td>.gd</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GP.png" alt="Flag of Guadaloupe"></td>
+    <td>Guadaloupe</td>
+    <td>Guadeloupe</td>
+    <td>GP</td>
+    <td>GLP</td>
+    <td>312</td>
+    <td>no</td>
+    <td>590</td>
+    <td>.gp</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GU.png" alt="Flag of Guam"></td>
+    <td>Guam</td>
+    <td>Guam</td>
+    <td>GU</td>
+    <td>GUM</td>
+    <td>316</td>
+    <td>no</td>
+    <td>1+671</td>
+    <td>.gu</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GT.png" alt="Flag of Guatemala"></td>
+    <td>Guatemala</td>
+    <td>Republic of Guatemala</td>
+    <td>GT</td>
+    <td>GTM</td>
+    <td>320</td>
+    <td>yes</td>
+    <td>502</td>
+    <td>.gt</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GG.png" alt="Flag of Guernsey"></td>
+    <td>Guernsey</td>
+    <td>Guernsey</td>
+    <td>GG</td>
+    <td>GGY</td>
+    <td>831</td>
+    <td>no</td>
+    <td>44</td>
+    <td>.gg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GN.png" alt="Flag of Guinea"></td>
+    <td>Guinea</td>
+    <td>Republic of Guinea</td>
+    <td>GN</td>
+    <td>GIN</td>
+    <td>324</td>
+    <td>yes</td>
+    <td>224</td>
+    <td>.gn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GW.png" alt="Flag of Guinea-Bissau"></td>
+    <td>Guinea-Bissau</td>
+    <td>Republic of Guinea-Bissau</td>
+    <td>GW</td>
+    <td>GNB</td>
+    <td>624</td>
+    <td>yes</td>
+    <td>245</td>
+    <td>.gw</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GY.png" alt="Flag of Guyana"></td>
+    <td>Guyana</td>
+    <td>Co-operative Republic of Guyana</td>
+    <td>GY</td>
+    <td>GUY</td>
+    <td>328</td>
+    <td>yes</td>
+    <td>592</td>
+    <td>.gy</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/HT.png" alt="Flag of Haiti"></td>
+    <td>Haiti</td>
+    <td>Republic of Haiti</td>
+    <td>HT</td>
+    <td>HTI</td>
+    <td>332</td>
+    <td>yes</td>
+    <td>509</td>
+    <td>.ht</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/HM.png" alt="Flag of Heard Island and McDonald Islands"></td>
+    <td>Heard Island and McDonald Islands</td>
+    <td>Heard Island and McDonald Islands</td>
+    <td>HM</td>
+    <td>HMD</td>
+    <td>334</td>
+    <td>no</td>
+    <td>NONE</td>
+    <td>.hm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/HN.png" alt="Flag of Honduras"></td>
+    <td>Honduras</td>
+    <td>Republic of Honduras</td>
+    <td>HN</td>
+    <td>HND</td>
+    <td>340</td>
+    <td>yes</td>
+    <td>504</td>
+    <td>.hn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/HK.png" alt="Flag of Hong Kong"></td>
+    <td>Hong Kong</td>
+    <td>Hong Kong</td>
+    <td>HK</td>
+    <td>HKG</td>
+    <td>344</td>
+    <td>no</td>
+    <td>852</td>
+    <td>.hk</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/HU.png" alt="Flag of Hungary"></td>
+    <td>Hungary</td>
+    <td>Hungary</td>
+    <td>HU</td>
+    <td>HUN</td>
+    <td>348</td>
+    <td>yes</td>
+    <td>36</td>
+    <td>.hu</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/IS.png" alt="Flag of Iceland"></td>
+    <td>Iceland</td>
+    <td>Republic of Iceland</td>
+    <td>IS</td>
+    <td>ISL</td>
+    <td>352</td>
+    <td>yes</td>
+    <td>354</td>
+    <td>.is</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/IN.png" alt="Flag of India"></td>
+    <td>India</td>
+    <td>Republic of India</td>
+    <td>IN</td>
+    <td>IND</td>
+    <td>356</td>
+    <td>yes</td>
+    <td>91</td>
+    <td>.in</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ID.png" alt="Flag of Indonesia"></td>
+    <td>Indonesia</td>
+    <td>Republic of Indonesia</td>
+    <td>ID</td>
+    <td>IDN</td>
+    <td>360</td>
+    <td>yes</td>
+    <td>62</td>
+    <td>.id</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/IR.png" alt="Flag of Iran"></td>
+    <td>Iran</td>
+    <td>Islamic Republic of Iran</td>
+    <td>IR</td>
+    <td>IRN</td>
+    <td>364</td>
+    <td>yes</td>
+    <td>98</td>
+    <td>.ir</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/IQ.png" alt="Flag of Iraq"></td>
+    <td>Iraq</td>
+    <td>Republic of Iraq</td>
+    <td>IQ</td>
+    <td>IRQ</td>
+    <td>368</td>
+    <td>yes</td>
+    <td>964</td>
+    <td>.iq</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/IE.png" alt="Flag of Ireland"></td>
+    <td>Ireland</td>
+    <td>Ireland</td>
+    <td>IE</td>
+    <td>IRL</td>
+    <td>372</td>
+    <td>yes</td>
+    <td>353</td>
+    <td>.ie</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/IM.png" alt="Flag of Isle of Man"></td>
+    <td>Isle of Man</td>
+    <td>Isle of Man</td>
+    <td>IM</td>
+    <td>IMN</td>
+    <td>833</td>
+    <td>no</td>
+    <td>44</td>
+    <td>.im</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/IL.png" alt="Flag of Israel"></td>
+    <td>Israel</td>
+    <td>State of Israel</td>
+    <td>IL</td>
+    <td>ISR</td>
+    <td>376</td>
+    <td>yes</td>
+    <td>972</td>
+    <td>.il</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/IT.png" alt="Flag of Italy"></td>
+    <td>Italy</td>
+    <td>Italian Republic</td>
+    <td>IT</td>
+    <td>ITA</td>
+    <td>380</td>
+    <td>yes</td>
+    <td>39</td>
+    <td>.jm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/JM.png" alt="Flag of Jamaica"></td>
+    <td>Jamaica</td>
+    <td>Jamaica</td>
+    <td>JM</td>
+    <td>JAM</td>
+    <td>388</td>
+    <td>yes</td>
+    <td>1+876</td>
+    <td>.jm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/JP.png" alt="Flag of Japan"></td>
+    <td>Japan</td>
+    <td>Japan</td>
+    <td>JP</td>
+    <td>JPN</td>
+    <td>392</td>
+    <td>yes</td>
+    <td>81</td>
+    <td>.jp</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/JE.png" alt="Flag of Jersey"></td>
+    <td>Jersey</td>
+    <td>The Bailiwick of Jersey</td>
+    <td>JE</td>
+    <td>JEY</td>
+    <td>832</td>
+    <td>no</td>
+    <td>44</td>
+    <td>.je</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/JO.png" alt="Flag of Jordan"></td>
+    <td>Jordan</td>
+    <td>Hashemite Kingdom of Jordan</td>
+    <td>JO</td>
+    <td>JOR</td>
+    <td>400</td>
+    <td>yes</td>
+    <td>962</td>
+    <td>.jo</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KZ.png" alt="Flag of Kazakhstan"></td>
+    <td>Kazakhstan</td>
+    <td>Republic of Kazakhstan</td>
+    <td>KZ</td>
+    <td>KAZ</td>
+    <td>398</td>
+    <td>yes</td>
+    <td>7</td>
+    <td>.kz</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KE.png" alt="Flag of Kenya"></td>
+    <td>Kenya</td>
+    <td>Republic of Kenya</td>
+    <td>KE</td>
+    <td>KEN</td>
+    <td>404</td>
+    <td>yes</td>
+    <td>254</td>
+    <td>.ke</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KI.png" alt="Flag of Kiribati"></td>
+    <td>Kiribati</td>
+    <td>Republic of Kiribati</td>
+    <td>KI</td>
+    <td>KIR</td>
+    <td>296</td>
+    <td>yes</td>
+    <td>686</td>
+    <td>.ki</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/XK.png" alt="Flag of Kosovo"></td>
+    <td>Kosovo</td>
+    <td>Republic of Kosovo</td>
+    <td>XK</td>
+    <td>---</td>
+    <td>---</td>
+    <td>some</td>
+    <td>381</td>
+    <td>?</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KW.png" alt="Flag of Kuwait"></td>
+    <td>Kuwait</td>
+    <td>State of Kuwait</td>
+    <td>KW</td>
+    <td>KWT</td>
+    <td>414</td>
+    <td>yes</td>
+    <td>965</td>
+    <td>.kw</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KG.png" alt="Flag of Kyrgyzstan"></td>
+    <td>Kyrgyzstan</td>
+    <td>Kyrgyz Republic</td>
+    <td>KG</td>
+    <td>KGZ</td>
+    <td>417</td>
+    <td>yes</td>
+    <td>996</td>
+    <td>.kg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LA.png" alt="Flag of Laos"></td>
+    <td>Laos</td>
+    <td>Lao People's Democratic Republic</td>
+    <td>LA</td>
+    <td>LAO</td>
+    <td>418</td>
+    <td>yes</td>
+    <td>856</td>
+    <td>.la</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LV.png" alt="Flag of Latvia"></td>
+    <td>Latvia</td>
+    <td>Republic of Latvia</td>
+    <td>LV</td>
+    <td>LVA</td>
+    <td>428</td>
+    <td>yes</td>
+    <td>371</td>
+    <td>.lv</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LB.png" alt="Flag of Lebanon"></td>
+    <td>Lebanon</td>
+    <td>Republic of Lebanon</td>
+    <td>LB</td>
+    <td>LBN</td>
+    <td>422</td>
+    <td>yes</td>
+    <td>961</td>
+    <td>.lb</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LS.png" alt="Flag of Lesotho"></td>
+    <td>Lesotho</td>
+    <td>Kingdom of Lesotho</td>
+    <td>LS</td>
+    <td>LSO</td>
+    <td>426</td>
+    <td>yes</td>
+    <td>266</td>
+    <td>.ls</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LR.png" alt="Flag of Liberia"></td>
+    <td>Liberia</td>
+    <td>Republic of Liberia</td>
+    <td>LR</td>
+    <td>LBR</td>
+    <td>430</td>
+    <td>yes</td>
+    <td>231</td>
+    <td>.lr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LY.png" alt="Flag of Libya"></td>
+    <td>Libya</td>
+    <td>Libya</td>
+    <td>LY</td>
+    <td>LBY</td>
+    <td>434</td>
+    <td>yes</td>
+    <td>218</td>
+    <td>.ly</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LI.png" alt="Flag of Liechtenstein"></td>
+    <td>Liechtenstein</td>
+    <td>Principality of Liechtenstein</td>
+    <td>LI</td>
+    <td>LIE</td>
+    <td>438</td>
+    <td>yes</td>
+    <td>423</td>
+    <td>.li</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LT.png" alt="Flag of Lithuania"></td>
+    <td>Lithuania</td>
+    <td>Republic of Lithuania</td>
+    <td>LT</td>
+    <td>LTU</td>
+    <td>440</td>
+    <td>yes</td>
+    <td>370</td>
+    <td>.lt</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LU.png" alt="Flag of Luxembourg"></td>
+    <td>Luxembourg</td>
+    <td>Grand Duchy of Luxembourg</td>
+    <td>LU</td>
+    <td>LUX</td>
+    <td>442</td>
+    <td>yes</td>
+    <td>352</td>
+    <td>.lu</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MO.png" alt="Flag of Macao"></td>
+    <td>Macao</td>
+    <td>The Macao Special Administrative Region</td>
+    <td>MO</td>
+    <td>MAC</td>
+    <td>446</td>
+    <td>no</td>
+    <td>853</td>
+    <td>.mo</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MK.png" alt="Flag of Macedonia"></td>
+    <td>Macedonia</td>
+    <td>The Former Yugoslav Republic of Macedonia</td>
+    <td>MK</td>
+    <td>MKD</td>
+    <td>807</td>
+    <td>yes</td>
+    <td>389</td>
+    <td>.mk</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MG.png" alt="Flag of Madagascar"></td>
+    <td>Madagascar</td>
+    <td>Republic of Madagascar</td>
+    <td>MG</td>
+    <td>MDG</td>
+    <td>450</td>
+    <td>yes</td>
+    <td>261</td>
+    <td>.mg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MW.png" alt="Flag of Malawi"></td>
+    <td>Malawi</td>
+    <td>Republic of Malawi</td>
+    <td>MW</td>
+    <td>MWI</td>
+    <td>454</td>
+    <td>yes</td>
+    <td>265</td>
+    <td>.mw</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MY.png" alt="Flag of Malaysia"></td>
+    <td>Malaysia</td>
+    <td>Malaysia</td>
+    <td>MY</td>
+    <td>MYS</td>
+    <td>458</td>
+    <td>yes</td>
+    <td>60</td>
+    <td>.my</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MV.png" alt="Flag of Maldives"></td>
+    <td>Maldives</td>
+    <td>Republic of Maldives</td>
+    <td>MV</td>
+    <td>MDV</td>
+    <td>462</td>
+    <td>yes</td>
+    <td>960</td>
+    <td>.mv</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ML.png" alt="Flag of Mali"></td>
+    <td>Mali</td>
+    <td>Republic of Mali</td>
+    <td>ML</td>
+    <td>MLI</td>
+    <td>466</td>
+    <td>yes</td>
+    <td>223</td>
+    <td>.ml</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MT.png" alt="Flag of Malta"></td>
+    <td>Malta</td>
+    <td>Republic of Malta</td>
+    <td>MT</td>
+    <td>MLT</td>
+    <td>470</td>
+    <td>yes</td>
+    <td>356</td>
+    <td>.mt</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MH.png" alt="Flag of Marshall Islands"></td>
+    <td>Marshall Islands</td>
+    <td>Republic of the Marshall Islands</td>
+    <td>MH</td>
+    <td>MHL</td>
+    <td>584</td>
+    <td>yes</td>
+    <td>692</td>
+    <td>.mh</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MQ.png" alt="Flag of Martinique"></td>
+    <td>Martinique</td>
+    <td>Martinique</td>
+    <td>MQ</td>
+    <td>MTQ</td>
+    <td>474</td>
+    <td>no</td>
+    <td>596</td>
+    <td>.mq</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MR.png" alt="Flag of Mauritania"></td>
+    <td>Mauritania</td>
+    <td>Islamic Republic of Mauritania</td>
+    <td>MR</td>
+    <td>MRT</td>
+    <td>478</td>
+    <td>yes</td>
+    <td>222</td>
+    <td>.mr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MU.png" alt="Flag of Mauritius"></td>
+    <td>Mauritius</td>
+    <td>Republic of Mauritius</td>
+    <td>MU</td>
+    <td>MUS</td>
+    <td>480</td>
+    <td>yes</td>
+    <td>230</td>
+    <td>.mu</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/YT.png" alt="Flag of Mayotte"></td>
+    <td>Mayotte</td>
+    <td>Mayotte</td>
+    <td>YT</td>
+    <td>MYT</td>
+    <td>175</td>
+    <td>no</td>
+    <td>262</td>
+    <td>.yt</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MX.png" alt="Flag of Mexico"></td>
+    <td>Mexico</td>
+    <td>United Mexican States</td>
+    <td>MX</td>
+    <td>MEX</td>
+    <td>484</td>
+    <td>yes</td>
+    <td>52</td>
+    <td>.mx</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/FM.png" alt="Flag of Micronesia"></td>
+    <td>Micronesia</td>
+    <td>Federated States of Micronesia</td>
+    <td>FM</td>
+    <td>FSM</td>
+    <td>583</td>
+    <td>yes</td>
+    <td>691</td>
+    <td>.fm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MD.png" alt="Flag of Moldava"></td>
+    <td>Moldava</td>
+    <td>Republic of Moldova</td>
+    <td>MD</td>
+    <td>MDA</td>
+    <td>498</td>
+    <td>yes</td>
+    <td>373</td>
+    <td>.md</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MC.png" alt="Flag of Monaco"></td>
+    <td>Monaco</td>
+    <td>Principality of Monaco</td>
+    <td>MC</td>
+    <td>MCO</td>
+    <td>492</td>
+    <td>yes</td>
+    <td>377</td>
+    <td>.mc</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MN.png" alt="Flag of Mongolia"></td>
+    <td>Mongolia</td>
+    <td>Mongolia</td>
+    <td>MN</td>
+    <td>MNG</td>
+    <td>496</td>
+    <td>yes</td>
+    <td>976</td>
+    <td>.mn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ME.png" alt="Flag of Montenegro"></td>
+    <td>Montenegro</td>
+    <td>Montenegro</td>
+    <td>ME</td>
+    <td>MNE</td>
+    <td>499</td>
+    <td>yes</td>
+    <td>382</td>
+    <td>.me</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MS.png" alt="Flag of Montserrat"></td>
+    <td>Montserrat</td>
+    <td>Montserrat</td>
+    <td>MS</td>
+    <td>MSR</td>
+    <td>500</td>
+    <td>no</td>
+    <td>1+664</td>
+    <td>.ms</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MA.png" alt="Flag of Morocco"></td>
+    <td>Morocco</td>
+    <td>Kingdom of Morocco</td>
+    <td>MA</td>
+    <td>MAR</td>
+    <td>504</td>
+    <td>yes</td>
+    <td>212</td>
+    <td>.ma</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MZ.png" alt="Flag of Mozambique"></td>
+    <td>Mozambique</td>
+    <td>Republic of Mozambique</td>
+    <td>MZ</td>
+    <td>MOZ</td>
+    <td>508</td>
+    <td>yes</td>
+    <td>258</td>
+    <td>.mz</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MM.png" alt="Flag of Myanmar (Burma)"></td>
+    <td>Myanmar (Burma)</td>
+    <td>Republic of the Union of Myanmar</td>
+    <td>MM</td>
+    <td>MMR</td>
+    <td>104</td>
+    <td>yes</td>
+    <td>95</td>
+    <td>.mm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NA.png" alt="Flag of Namibia"></td>
+    <td>Namibia</td>
+    <td>Republic of Namibia</td>
+    <td>NA</td>
+    <td>NAM</td>
+    <td>516</td>
+    <td>yes</td>
+    <td>264</td>
+    <td>.na</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NR.png" alt="Flag of Nauru"></td>
+    <td>Nauru</td>
+    <td>Republic of Nauru</td>
+    <td>NR</td>
+    <td>NRU</td>
+    <td>520</td>
+    <td>yes</td>
+    <td>674</td>
+    <td>.nr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NP.png" alt="Flag of Nepal"></td>
+    <td>Nepal</td>
+    <td>Federal Democratic Republic of Nepal</td>
+    <td>NP</td>
+    <td>NPL</td>
+    <td>524</td>
+    <td>yes</td>
+    <td>977</td>
+    <td>.np</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NL.png" alt="Flag of Netherlands"></td>
+    <td>Netherlands</td>
+    <td>Kingdom of the Netherlands</td>
+    <td>NL</td>
+    <td>NLD</td>
+    <td>528</td>
+    <td>yes</td>
+    <td>31</td>
+    <td>.nl</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NC.png" alt="Flag of New Caledonia"></td>
+    <td>New Caledonia</td>
+    <td>New Caledonia</td>
+    <td>NC</td>
+    <td>NCL</td>
+    <td>540</td>
+    <td>no</td>
+    <td>687</td>
+    <td>.nc</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NZ.png" alt="Flag of New Zealand"></td>
+    <td>New Zealand</td>
+    <td>New Zealand</td>
+    <td>NZ</td>
+    <td>NZL</td>
+    <td>554</td>
+    <td>yes</td>
+    <td>64</td>
+    <td>.nz</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NI.png" alt="Flag of Nicaragua"></td>
+    <td>Nicaragua</td>
+    <td>Republic of Nicaragua</td>
+    <td>NI</td>
+    <td>NIC</td>
+    <td>558</td>
+    <td>yes</td>
+    <td>505</td>
+    <td>.ni</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NE.png" alt="Flag of Niger"></td>
+    <td>Niger</td>
+    <td>Republic of Niger</td>
+    <td>NE</td>
+    <td>NER</td>
+    <td>562</td>
+    <td>yes</td>
+    <td>227</td>
+    <td>.ne</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NG.png" alt="Flag of Nigeria"></td>
+    <td>Nigeria</td>
+    <td>Federal Republic of Nigeria</td>
+    <td>NG</td>
+    <td>NGA</td>
+    <td>566</td>
+    <td>yes</td>
+    <td>234</td>
+    <td>.ng</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NU.png" alt="Flag of Niue"></td>
+    <td>Niue</td>
+    <td>Niue</td>
+    <td>NU</td>
+    <td>NIU</td>
+    <td>570</td>
+    <td>some</td>
+    <td>683</td>
+    <td>.nu</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NF.png" alt="Flag of Norfolk Island"></td>
+    <td>Norfolk Island</td>
+    <td>Norfolk Island</td>
+    <td>NF</td>
+    <td>NFK</td>
+    <td>574</td>
+    <td>no</td>
+    <td>672</td>
+    <td>.nf</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KP.png" alt="Flag of North Korea"></td>
+    <td>North Korea</td>
+    <td>Democratic People's Republic of Korea</td>
+    <td>KP</td>
+    <td>PRK</td>
+    <td>408</td>
+    <td>yes</td>
+    <td>850</td>
+    <td>.kp</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MP.png" alt="Flag of Northern Mariana Islands"></td>
+    <td>Northern Mariana Islands</td>
+    <td>Northern Mariana Islands</td>
+    <td>MP</td>
+    <td>MNP</td>
+    <td>580</td>
+    <td>no</td>
+    <td>1+670</td>
+    <td>.mp</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/NO.png" alt="Flag of Norway"></td>
+    <td>Norway</td>
+    <td>Kingdom of Norway</td>
+    <td>NO</td>
+    <td>NOR</td>
+    <td>578</td>
+    <td>yes</td>
+    <td>47</td>
+    <td>.no</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/OM.png" alt="Flag of Oman"></td>
+    <td>Oman</td>
+    <td>Sultanate of Oman</td>
+    <td>OM</td>
+    <td>OMN</td>
+    <td>512</td>
+    <td>yes</td>
+    <td>968</td>
+    <td>.om</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PK.png" alt="Flag of Pakistan"></td>
+    <td>Pakistan</td>
+    <td>Islamic Republic of Pakistan</td>
+    <td>PK</td>
+    <td>PAK</td>
+    <td>586</td>
+    <td>yes</td>
+    <td>92</td>
+    <td>.pk</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PW.png" alt="Flag of Palau"></td>
+    <td>Palau</td>
+    <td>Republic of Palau</td>
+    <td>PW</td>
+    <td>PLW</td>
+    <td>585</td>
+    <td>yes</td>
+    <td>680</td>
+    <td>.pw</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PS.png" alt="Flag of Palestine"></td>
+    <td>Palestine</td>
+    <td>State of Palestine (or Occupied Palestinian Territory)</td>
+    <td>PS</td>
+    <td>PSE</td>
+    <td>275</td>
+    <td>some</td>
+    <td>970</td>
+    <td>.ps</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PA.png" alt="Flag of Panama"></td>
+    <td>Panama</td>
+    <td>Republic of Panama</td>
+    <td>PA</td>
+    <td>PAN</td>
+    <td>591</td>
+    <td>yes</td>
+    <td>507</td>
+    <td>.pa</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PG.png" alt="Flag of Papua New Guinea"></td>
+    <td>Papua New Guinea</td>
+    <td>Independent State of Papua New Guinea</td>
+    <td>PG</td>
+    <td>PNG</td>
+    <td>598</td>
+    <td>yes</td>
+    <td>675</td>
+    <td>.pg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PY.png" alt="Flag of Paraguay"></td>
+    <td>Paraguay</td>
+    <td>Republic of Paraguay</td>
+    <td>PY</td>
+    <td>PRY</td>
+    <td>600</td>
+    <td>yes</td>
+    <td>595</td>
+    <td>.py</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PE.png" alt="Flag of Peru"></td>
+    <td>Peru</td>
+    <td>Republic of Peru</td>
+    <td>PE</td>
+    <td>PER</td>
+    <td>604</td>
+    <td>yes</td>
+    <td>51</td>
+    <td>.pe</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PH.png" alt="Flag of Phillipines"></td>
+    <td>Phillipines</td>
+    <td>Republic of the Philippines</td>
+    <td>PH</td>
+    <td>PHL</td>
+    <td>608</td>
+    <td>yes</td>
+    <td>63</td>
+    <td>.ph</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PN.png" alt="Flag of Pitcairn"></td>
+    <td>Pitcairn</td>
+    <td>Pitcairn</td>
+    <td>PN</td>
+    <td>PCN</td>
+    <td>612</td>
+    <td>no</td>
+    <td>NONE</td>
+    <td>.pn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PL.png" alt="Flag of Poland"></td>
+    <td>Poland</td>
+    <td>Republic of Poland</td>
+    <td>PL</td>
+    <td>POL</td>
+    <td>616</td>
+    <td>yes</td>
+    <td>48</td>
+    <td>.pl</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PT.png" alt="Flag of Portugal"></td>
+    <td>Portugal</td>
+    <td>Portuguese Republic</td>
+    <td>PT</td>
+    <td>PRT</td>
+    <td>620</td>
+    <td>yes</td>
+    <td>351</td>
+    <td>.pt</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PR.png" alt="Flag of Puerto Rico"></td>
+    <td>Puerto Rico</td>
+    <td>Commonwealth of Puerto Rico</td>
+    <td>PR</td>
+    <td>PRI</td>
+    <td>630</td>
+    <td>no</td>
+    <td>1+939</td>
+    <td>.pr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/QA.png" alt="Flag of Qatar"></td>
+    <td>Qatar</td>
+    <td>State of Qatar</td>
+    <td>QA</td>
+    <td>QAT</td>
+    <td>634</td>
+    <td>yes</td>
+    <td>974</td>
+    <td>.qa</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/RE.png" alt="Flag of Reunion"></td>
+    <td>Reunion</td>
+    <td>Réunion</td>
+    <td>RE</td>
+    <td>REU</td>
+    <td>638</td>
+    <td>no</td>
+    <td>262</td>
+    <td>.re</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/RO.png" alt="Flag of Romania"></td>
+    <td>Romania</td>
+    <td>Romania</td>
+    <td>RO</td>
+    <td>ROU</td>
+    <td>642</td>
+    <td>yes</td>
+    <td>40</td>
+    <td>.ro</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/RU.png" alt="Flag of Russia"></td>
+    <td>Russia</td>
+    <td>Russian Federation</td>
+    <td>RU</td>
+    <td>RUS</td>
+    <td>643</td>
+    <td>yes</td>
+    <td>7</td>
+    <td>.ru</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/RW.png" alt="Flag of Rwanda"></td>
+    <td>Rwanda</td>
+    <td>Republic of Rwanda</td>
+    <td>RW</td>
+    <td>RWA</td>
+    <td>646</td>
+    <td>yes</td>
+    <td>250</td>
+    <td>.rw</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/BL.png" alt="Flag of Saint Barthelemy"></td>
+    <td>Saint Barthelemy</td>
+    <td>Saint Barthélemy</td>
+    <td>BL</td>
+    <td>BLM</td>
+    <td>652</td>
+    <td>no</td>
+    <td>590</td>
+    <td>.bl</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SH.png" alt="Flag of Saint Helena"></td>
+    <td>Saint Helena</td>
+    <td>Saint Helena, Ascension and Tristan da Cunha</td>
+    <td>SH</td>
+    <td>SHN</td>
+    <td>654</td>
+    <td>no</td>
+    <td>290</td>
+    <td>.sh</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KN.png" alt="Flag of Saint Kitts and Nevis"></td>
+    <td>Saint Kitts and Nevis</td>
+    <td>Federation of Saint Christopher and Nevis</td>
+    <td>KN</td>
+    <td>KNA</td>
+    <td>659</td>
+    <td>yes</td>
+    <td>1+869</td>
+    <td>.kn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LC.png" alt="Flag of Saint Lucia"></td>
+    <td>Saint Lucia</td>
+    <td>Saint Lucia</td>
+    <td>LC</td>
+    <td>LCA</td>
+    <td>662</td>
+    <td>yes</td>
+    <td>1+758</td>
+    <td>.lc</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/MF.png" alt="Flag of Saint Martin"></td>
+    <td>Saint Martin</td>
+    <td>Saint Martin</td>
+    <td>MF</td>
+    <td>MAF</td>
+    <td>663</td>
+    <td>no</td>
+    <td>590</td>
+    <td>.mf</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/PM.png" alt="Flag of Saint Pierre and Miquelon"></td>
+    <td>Saint Pierre and Miquelon</td>
+    <td>Saint Pierre and Miquelon</td>
+    <td>PM</td>
+    <td>SPM</td>
+    <td>666</td>
+    <td>no</td>
+    <td>508</td>
+    <td>.pm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/VC.png" alt="Flag of Saint Vincent and the Grenadines"></td>
+    <td>Saint Vincent and the Grenadines</td>
+    <td>Saint Vincent and the Grenadines</td>
+    <td>VC</td>
+    <td>VCT</td>
+    <td>670</td>
+    <td>yes</td>
+    <td>1+784</td>
+    <td>.vc</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/WS.png" alt="Flag of Samoa"></td>
+    <td>Samoa</td>
+    <td>Independent State of Samoa</td>
+    <td>WS</td>
+    <td>WSM</td>
+    <td>882</td>
+    <td>yes</td>
+    <td>685</td>
+    <td>.ws</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SM.png" alt="Flag of San Marino"></td>
+    <td>San Marino</td>
+    <td>Republic of San Marino</td>
+    <td>SM</td>
+    <td>SMR</td>
+    <td>674</td>
+    <td>yes</td>
+    <td>378</td>
+    <td>.sm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ST.png" alt="Flag of Sao Tome and Principe"></td>
+    <td>Sao Tome and Principe</td>
+    <td>Democratic Republic of São Tomé and Príncipe</td>
+    <td>ST</td>
+    <td>STP</td>
+    <td>678</td>
+    <td>yes</td>
+    <td>239</td>
+    <td>.st</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SA.png" alt="Flag of Saudi Arabia"></td>
+    <td>Saudi Arabia</td>
+    <td>Kingdom of Saudi Arabia</td>
+    <td>SA</td>
+    <td>SAU</td>
+    <td>682</td>
+    <td>yes</td>
+    <td>966</td>
+    <td>.sa</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SN.png" alt="Flag of Senegal"></td>
+    <td>Senegal</td>
+    <td>Republic of Senegal</td>
+    <td>SN</td>
+    <td>SEN</td>
+    <td>686</td>
+    <td>yes</td>
+    <td>221</td>
+    <td>.sn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/RS.png" alt="Flag of Serbia"></td>
+    <td>Serbia</td>
+    <td>Republic of Serbia</td>
+    <td>RS</td>
+    <td>SRB</td>
+    <td>688</td>
+    <td>yes</td>
+    <td>381</td>
+    <td>.rs</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SC.png" alt="Flag of Seychelles"></td>
+    <td>Seychelles</td>
+    <td>Republic of Seychelles</td>
+    <td>SC</td>
+    <td>SYC</td>
+    <td>690</td>
+    <td>yes</td>
+    <td>248</td>
+    <td>.sc</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SL.png" alt="Flag of Sierra Leone"></td>
+    <td>Sierra Leone</td>
+    <td>Republic of Sierra Leone</td>
+    <td>SL</td>
+    <td>SLE</td>
+    <td>694</td>
+    <td>yes</td>
+    <td>232</td>
+    <td>.sl</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SG.png" alt="Flag of Singapore"></td>
+    <td>Singapore</td>
+    <td>Republic of Singapore</td>
+    <td>SG</td>
+    <td>SGP</td>
+    <td>702</td>
+    <td>yes</td>
+    <td>65</td>
+    <td>.sg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SX.png" alt="Flag of Sint Maarten"></td>
+    <td>Sint Maarten</td>
+    <td>Sint Maarten</td>
+    <td>SX</td>
+    <td>SXM</td>
+    <td>534</td>
+    <td>no</td>
+    <td>1+721</td>
+    <td>.sx</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SK.png" alt="Flag of Slovakia"></td>
+    <td>Slovakia</td>
+    <td>Slovak Republic</td>
+    <td>SK</td>
+    <td>SVK</td>
+    <td>703</td>
+    <td>yes</td>
+    <td>421</td>
+    <td>.sk</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SI.png" alt="Flag of Slovenia"></td>
+    <td>Slovenia</td>
+    <td>Republic of Slovenia</td>
+    <td>SI</td>
+    <td>SVN</td>
+    <td>705</td>
+    <td>yes</td>
+    <td>386</td>
+    <td>.si</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SB.png" alt="Flag of Solomon Islands"></td>
+    <td>Solomon Islands</td>
+    <td>Solomon Islands</td>
+    <td>SB</td>
+    <td>SLB</td>
+    <td>090</td>
+    <td>yes</td>
+    <td>677</td>
+    <td>.sb</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SO.png" alt="Flag of Somalia"></td>
+    <td>Somalia</td>
+    <td>Somali Republic</td>
+    <td>SO</td>
+    <td>SOM</td>
+    <td>706</td>
+    <td>yes</td>
+    <td>252</td>
+    <td>.so</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ZA.png" alt="Flag of South Africa"></td>
+    <td>South Africa</td>
+    <td>Republic of South Africa</td>
+    <td>ZA</td>
+    <td>ZAF</td>
+    <td>710</td>
+    <td>yes</td>
+    <td>27</td>
+    <td>.za</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GS.png" alt="Flag of South Georgia and the South Sandwich Islands"></td>
+    <td>South Georgia and the South Sandwich Islands</td>
+    <td>South Georgia and the South Sandwich Islands</td>
+    <td>GS</td>
+    <td>SGS</td>
+    <td>239</td>
+    <td>no</td>
+    <td>500</td>
+    <td>.gs</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/KR.png" alt="Flag of South Korea"></td>
+    <td>South Korea</td>
+    <td>Republic of Korea</td>
+    <td>KR</td>
+    <td>KOR</td>
+    <td>410</td>
+    <td>yes</td>
+    <td>82</td>
+    <td>.kr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SS.png" alt="Flag of South Sudan"></td>
+    <td>South Sudan</td>
+    <td>Republic of South Sudan</td>
+    <td>SS</td>
+    <td>SSD</td>
+    <td>728</td>
+    <td>yes</td>
+    <td>211</td>
+    <td>.ss</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ES.png" alt="Flag of Spain"></td>
+    <td>Spain</td>
+    <td>Kingdom of Spain</td>
+    <td>ES</td>
+    <td>ESP</td>
+    <td>724</td>
+    <td>yes</td>
+    <td>34</td>
+    <td>.es</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/LK.png" alt="Flag of Sri Lanka"></td>
+    <td>Sri Lanka</td>
+    <td>Democratic Socialist Republic of Sri Lanka</td>
+    <td>LK</td>
+    <td>LKA</td>
+    <td>144</td>
+    <td>yes</td>
+    <td>94</td>
+    <td>.lk</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SD.png" alt="Flag of Sudan"></td>
+    <td>Sudan</td>
+    <td>Republic of the Sudan</td>
+    <td>SD</td>
+    <td>SDN</td>
+    <td>729</td>
+    <td>yes</td>
+    <td>249</td>
+    <td>.sd</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SR.png" alt="Flag of Suriname"></td>
+    <td>Suriname</td>
+    <td>Republic of Suriname</td>
+    <td>SR</td>
+    <td>SUR</td>
+    <td>740</td>
+    <td>yes</td>
+    <td>597</td>
+    <td>.sr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SJ.png" alt="Flag of Svalbard and Jan Mayen"></td>
+    <td>Svalbard and Jan Mayen</td>
+    <td>Svalbard and Jan Mayen</td>
+    <td>SJ</td>
+    <td>SJM</td>
+    <td>744</td>
+    <td>no</td>
+    <td>47</td>
+    <td>.sj</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SZ.png" alt="Flag of Swaziland"></td>
+    <td>Swaziland</td>
+    <td>Kingdom of Swaziland</td>
+    <td>SZ</td>
+    <td>SWZ</td>
+    <td>748</td>
+    <td>yes</td>
+    <td>268</td>
+    <td>.sz</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SE.png" alt="Flag of Sweden"></td>
+    <td>Sweden</td>
+    <td>Kingdom of Sweden</td>
+    <td>SE</td>
+    <td>SWE</td>
+    <td>752</td>
+    <td>yes</td>
+    <td>46</td>
+    <td>.se</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/CH.png" alt="Flag of Switzerland"></td>
+    <td>Switzerland</td>
+    <td>Swiss Confederation</td>
+    <td>CH</td>
+    <td>CHE</td>
+    <td>756</td>
+    <td>yes</td>
+    <td>41</td>
+    <td>.ch</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/SY.png" alt="Flag of Syria"></td>
+    <td>Syria</td>
+    <td>Syrian Arab Republic</td>
+    <td>SY</td>
+    <td>SYR</td>
+    <td>760</td>
+    <td>yes</td>
+    <td>963</td>
+    <td>.sy</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TW.png" alt="Flag of Taiwan"></td>
+    <td>Taiwan</td>
+    <td>Republic of China (Taiwan)</td>
+    <td>TW</td>
+    <td>TWN</td>
+    <td>158</td>
+    <td>former</td>
+    <td>886</td>
+    <td>.tw</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TJ.png" alt="Flag of Tajikistan"></td>
+    <td>Tajikistan</td>
+    <td>Republic of Tajikistan</td>
+    <td>TJ</td>
+    <td>TJK</td>
+    <td>762</td>
+    <td>yes</td>
+    <td>992</td>
+    <td>.tj</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TZ.png" alt="Flag of Tanzania"></td>
+    <td>Tanzania</td>
+    <td>United Republic of Tanzania</td>
+    <td>TZ</td>
+    <td>TZA</td>
+    <td>834</td>
+    <td>yes</td>
+    <td>255</td>
+    <td>.tz</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TH.png" alt="Flag of Thailand"></td>
+    <td>Thailand</td>
+    <td>Kingdom of Thailand</td>
+    <td>TH</td>
+    <td>THA</td>
+    <td>764</td>
+    <td>yes</td>
+    <td>66</td>
+    <td>.th</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TL.png" alt="Flag of Timor-Leste (East Timor)"></td>
+    <td>Timor-Leste (East Timor)</td>
+    <td>Democratic Republic of Timor-Leste</td>
+    <td>TL</td>
+    <td>TLS</td>
+    <td>626</td>
+    <td>yes</td>
+    <td>670</td>
+    <td>.tl</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TG.png" alt="Flag of Togo"></td>
+    <td>Togo</td>
+    <td>Togolese Republic</td>
+    <td>TG</td>
+    <td>TGO</td>
+    <td>768</td>
+    <td>yes</td>
+    <td>228</td>
+    <td>.tg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TK.png" alt="Flag of Tokelau"></td>
+    <td>Tokelau</td>
+    <td>Tokelau</td>
+    <td>TK</td>
+    <td>TKL</td>
+    <td>772</td>
+    <td>no</td>
+    <td>690</td>
+    <td>.tk</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TO.png" alt="Flag of Tonga"></td>
+    <td>Tonga</td>
+    <td>Kingdom of Tonga</td>
+    <td>TO</td>
+    <td>TON</td>
+    <td>776</td>
+    <td>yes</td>
+    <td>676</td>
+    <td>.to</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TT.png" alt="Flag of Trinidad and Tobago"></td>
+    <td>Trinidad and Tobago</td>
+    <td>Republic of Trinidad and Tobago</td>
+    <td>TT</td>
+    <td>TTO</td>
+    <td>780</td>
+    <td>yes</td>
+    <td>1+868</td>
+    <td>.tt</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TN.png" alt="Flag of Tunisia"></td>
+    <td>Tunisia</td>
+    <td>Republic of Tunisia</td>
+    <td>TN</td>
+    <td>TUN</td>
+    <td>788</td>
+    <td>yes</td>
+    <td>216</td>
+    <td>.tn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TR.png" alt="Flag of Turkey"></td>
+    <td>Turkey</td>
+    <td>Republic of Turkey</td>
+    <td>TR</td>
+    <td>TUR</td>
+    <td>792</td>
+    <td>yes</td>
+    <td>90</td>
+    <td>.tr</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TM.png" alt="Flag of Turkmenistan"></td>
+    <td>Turkmenistan</td>
+    <td>Turkmenistan</td>
+    <td>TM</td>
+    <td>TKM</td>
+    <td>795</td>
+    <td>yes</td>
+    <td>993</td>
+    <td>.tm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TC.png" alt="Flag of Turks and Caicos Islands"></td>
+    <td>Turks and Caicos Islands</td>
+    <td>Turks and Caicos Islands</td>
+    <td>TC</td>
+    <td>TCA</td>
+    <td>796</td>
+    <td>no</td>
+    <td>1+649</td>
+    <td>.tc</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/TV.png" alt="Flag of Tuvalu"></td>
+    <td>Tuvalu</td>
+    <td>Tuvalu</td>
+    <td>TV</td>
+    <td>TUV</td>
+    <td>798</td>
+    <td>yes</td>
+    <td>688</td>
+    <td>.tv</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/UG.png" alt="Flag of Uganda"></td>
+    <td>Uganda</td>
+    <td>Republic of Uganda</td>
+    <td>UG</td>
+    <td>UGA</td>
+    <td>800</td>
+    <td>yes</td>
+    <td>256</td>
+    <td>.ug</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/UA.png" alt="Flag of Ukraine"></td>
+    <td>Ukraine</td>
+    <td>Ukraine</td>
+    <td>UA</td>
+    <td>UKR</td>
+    <td>804</td>
+    <td>yes</td>
+    <td>380</td>
+    <td>.ua</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/AE.png" alt="Flag of United Arab Emirates"></td>
+    <td>United Arab Emirates</td>
+    <td>United Arab Emirates</td>
+    <td>AE</td>
+    <td>ARE</td>
+    <td>784</td>
+    <td>yes</td>
+    <td>971</td>
+    <td>.ae</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/GB.png" alt="Flag of United Kingdom"></td>
+    <td>United Kingdom</td>
+    <td>United Kingdom of Great Britain and Nothern Ireland</td>
+    <td>GB</td>
+    <td>GBR</td>
+    <td>826</td>
+    <td>yes</td>
+    <td>44</td>
+    <td>.uk</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/US.png" alt="Flag of United States"></td>
+    <td>United States</td>
+    <td>United States of America</td>
+    <td>US</td>
+    <td>USA</td>
+    <td>840</td>
+    <td>yes</td>
+    <td>1</td>
+    <td>.us</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/UM.png" alt="Flag of United States Minor Outlying Islands"></td>
+    <td>United States Minor Outlying Islands</td>
+    <td>United States Minor Outlying Islands</td>
+    <td>UM</td>
+    <td>UMI</td>
+    <td>581</td>
+    <td>no</td>
+    <td>NONE</td>
+    <td>NONE</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/UY.png" alt="Flag of Uruguay"></td>
+    <td>Uruguay</td>
+    <td>Eastern Republic of Uruguay</td>
+    <td>UY</td>
+    <td>URY</td>
+    <td>858</td>
+    <td>yes</td>
+    <td>598</td>
+    <td>.uy</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/UZ.png" alt="Flag of Uzbekistan"></td>
+    <td>Uzbekistan</td>
+    <td>Republic of Uzbekistan</td>
+    <td>UZ</td>
+    <td>UZB</td>
+    <td>860</td>
+    <td>yes</td>
+    <td>998</td>
+    <td>.uz</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/VU.png" alt="Flag of Vanuatu"></td>
+    <td>Vanuatu</td>
+    <td>Republic of Vanuatu</td>
+    <td>VU</td>
+    <td>VUT</td>
+    <td>548</td>
+    <td>yes</td>
+    <td>678</td>
+    <td>.vu</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/VA.png" alt="Flag of Vatican City"></td>
+    <td>Vatican City</td>
+    <td>State of the Vatican City</td>
+    <td>VA</td>
+    <td>VAT</td>
+    <td>336</td>
+    <td>no</td>
+    <td>39</td>
+    <td>.va</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/VE.png" alt="Flag of Venezuela"></td>
+    <td>Venezuela</td>
+    <td>Bolivarian Republic of Venezuela</td>
+    <td>VE</td>
+    <td>VEN</td>
+    <td>862</td>
+    <td>yes</td>
+    <td>58</td>
+    <td>.ve</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/VN.png" alt="Flag of Vietnam"></td>
+    <td>Vietnam</td>
+    <td>Socialist Republic of Vietnam</td>
+    <td>VN</td>
+    <td>VNM</td>
+    <td>704</td>
+    <td>yes</td>
+    <td>84</td>
+    <td>.vn</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/VG.png" alt="Flag of Virgin Islands, British"></td>
+    <td>Virgin Islands, British</td>
+    <td>British Virgin Islands</td>
+    <td>VG</td>
+    <td>VGB</td>
+    <td>092</td>
+    <td>no</td>
+    <td>1+284</td>
+    <td>.vg</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/VI.png" alt="Flag of Virgin Islands, US"></td>
+    <td>Virgin Islands, US</td>
+    <td>Virgin Islands of the United States</td>
+    <td>VI</td>
+    <td>VIR</td>
+    <td>850</td>
+    <td>no</td>
+    <td>1+340</td>
+    <td>.vi</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/WF.png" alt="Flag of Wallis and Futuna"></td>
+    <td>Wallis and Futuna</td>
+    <td>Wallis and Futuna</td>
+    <td>WF</td>
+    <td>WLF</td>
+    <td>876</td>
+    <td>no</td>
+    <td>681</td>
+    <td>.wf</td>
+  </tr>
+<tr>
+<td></td>
+    <td>Western Sahara</td>
+    <td>Western Sahara</td>
+    <td>EH</td>
+    <td>ESH</td>
+    <td>732</td>
+    <td>no</td>
+    <td>212</td>
+    <td>.eh</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/YE.png" alt="Flag of Yemen"></td>
+    <td>Yemen</td>
+    <td>Republic of Yemen</td>
+    <td>YE</td>
+    <td>YEM</td>
+    <td>887</td>
+    <td>yes</td>
+    <td>967</td>
+    <td>.ye</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ZM.png" alt="Flag of Zambia"></td>
+    <td>Zambia</td>
+    <td>Republic of Zambia</td>
+    <td>ZM</td>
+    <td>ZMB</td>
+    <td>894</td>
+    <td>yes</td>
+    <td>260</td>
+    <td>.zm</td>
+  </tr>
+<tr>
+<td><img src="http://erikastokes.com/mysql-help/ZW.png" alt="Flag of Zimbabwe"></td>
+    <td>Zimbabwe</td>
+    <td>Republic of Zimbabwe</td>
+    <td>ZW</td>
+    <td>ZWE</td>
+    <td>716</td>
+    <td>yes</td>
+    <td>263</td>
+    <td>.zw</td>
+  </tr>
+</table>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Tableo maintained by <a href="https://github.com/dallas22ca">dallas22ca</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

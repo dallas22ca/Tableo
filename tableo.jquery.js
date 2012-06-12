@@ -10,7 +10,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		return this.each(function() {
 		  $(this).find("tr:visible:odd").addClass("odd");
 		  $(this).wrap("<div class='tableo_wrapper'></div>");
-		  $('<input class="tableo_search" placeholder="Search..." style="float: right; " type="text" value="" />').prependTo($(this).parents(".tableo_wrapper"));
+		  $('<input class="tableo_search" placeholder="Search..." type="text" value="" />').prependTo($(this).parents(".tableo_wrapper"));
 		  $(".tableo_search").live("keyup", function() {
 				var q;
 				q = $(this).val().toLowerCase();

@@ -38,6 +38,7 @@ $(document).ready(function(){
 
 ## What does tableo.jquery.js do?
 It wraps your table in a wrapper called `tableo_wrapper`, then prepends a simple search box that prepends a live filter of the table on keyup. In other words:
+
 ```
 <div class="tableo_wrapper">
 	<input class="tableo_search" placeholder="Search..." type="text" value="">
@@ -47,5 +48,11 @@ It wraps your table in a wrapper called `tableo_wrapper`, then prepends a simple
 </div>
 ```
 
+Or in a more visual sense:
+![Unstyled table](/styled.png)
+
 ## What does tableo.jquery.js NOT do?
 It does not provide ANY styling whatsoever - that's up to you using `.tableo`, `.tableo_wrapper`, and `.tableo_search`.
+
+If you did style it, it could look something like:
+![Styled table](/styled.png)

@@ -49,10 +49,10 @@ It wraps your table in a wrapper called `tableo_wrapper`, then prepends a simple
 ```
 
 Or in a more visual sense:
-![Unstyled table](/styled.png)
+![Unstyled table](https://github.com/dallas22ca/Tableo/raw/master/unstyled.png)
 
 ## What does tableo.jquery.js NOT do?
 It does not provide ANY styling whatsoever - that's up to you using `.tableo`, `.tableo_wrapper`, and `.tableo_search`.
 
 If you did style it, it could look something like:
-![Styled table](/styled.png)
+![Styled table](https://github.com/dallas22ca/Tableo/raw/master/styled.png)

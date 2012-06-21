@@ -13,11 +13,11 @@ To use, make sure you have included the latest version jQuery.
 
 Include `tableo.jquery.js` in your application and reference it.
 ```
-<script src="/path/to/tableo.jquery.js" type="text/javascript"></script>
+<script src="/path/to/tableo.jquery.min.js" type="text/javascript"></script>
 ```
 OR
 ```
-<script src="https://raw.github.com/dallas22ca/Tableo/master/tableo.jquery.js" type="text/javascript"></script>
+<script src="https://raw.github.com/dallas22ca/Tableo/master/tableo.jquery.min.js" type="text/javascript"></script>
 ```
 
 Then, add the `tableo` class (or any other class name) to your `<table>`, `<ul>`, or `<ol>` tags. For tables, the search box will filter all `<td>` tags, so it's best to put your headers in `<th>` tags.

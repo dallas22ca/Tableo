@@ -3,6 +3,8 @@ Tableo.jquery.js
 
 ####Pronounced Table-Oh. Lightweight jQuery plugin for adding a filter to a table.
 
+## Quick Start
+
 To use, make sure you have included the latest version jQuery.
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
@@ -51,13 +53,14 @@ It wraps your `<table>`, `<ul>`, or `<li>` in a wrapper called `tableo_wrapper`,
 </div>
 ```
 
-Or in a more visual sense (on a `<ul>`):
-
-![Filtered table](https://github.com/dallas22ca/Tableo/raw/master/filters.png)
-
-Or without filters (on a `<table>`):
+In a visual sense, here is the default implementation on a `<table>`:
 
 ![Unstyled table](https://github.com/dallas22ca/Tableo/raw/master/unstyled.png)
+
+
+Here is a styled implementation with filters on a `<ul>`:
+
+![Filtered table](https://github.com/dallas22ca/Tableo/raw/master/filters.png)
 
 
 ## What options does tableo.jquery.js give me?

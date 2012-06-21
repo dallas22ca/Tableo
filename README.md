@@ -1,7 +1,8 @@
 Tableo.jquery.js
 ======
 
-####Pronounced Table-Oh. Lightweight jQuery plugin for adding a filter to a table.
+####Pronounced Table-Oh. Lightweight jQuery plugin for adding a filter to a table, ul, or ol.
+
 
 ## Quick Start
 
@@ -19,7 +20,7 @@ OR
 <script src="https://raw.github.com/dallas22ca/Tableo/master/tableo.jquery.js" type="text/javascript"></script>
 ```
 
-Then, add the `tableo` class to your table (or any other class you choose to use that's referenced in your javascript). The search box will filter all `<td>` tags, so it's best to put your headers in `<th>` tags.
+Then, add the `tableo` class (or any other class name) to your `<table>`, `<ul>`, or `<ol>` tags. For tables, the search box will filter all `<td>` tags, so it's best to put your headers in `<th>` tags.
 ```
 <table class="tableo">
 	<tr>
@@ -37,6 +38,8 @@ $(document).ready(function(){
 	$(".tableo").tableo();
 });
 ```
+
+
 
 ## What does tableo.jquery.js do?
 It wraps your `<table>`, `<ul>`, or `<li>` in a wrapper called `tableo_wrapper`, then prepends a simple search box gives you a live filter of the `<table>`, `<ul>`, or `<li>` on keyup. You can also pass in options for 1-click filters. In other words, the HTML generated looks something like this:
@@ -63,6 +66,7 @@ Here is a styled implementation with filters on a `<ul>`:
 ![Filtered table](https://github.com/dallas22ca/Tableo/raw/master/filters.png)
 
 
+
 ## What options does tableo.jquery.js give me?
 
 ```
@@ -84,12 +88,13 @@ $(document).ready(function(){
 ```
 
 
+
 ## What are the defaults of tableo.jquery.js?
 
 ```
 $(document).ready(function(){
 	$(".tableo").tableo({
-		searchAttributes: [], // Searches through entire child's (`<li>` or `<tr>`) text
+		searchAttributes: [], // Searches through entire child's (<li> or <tr>) text
 		filters: [], // No filters will be shown
 		defaultFilter: "", // Has no effect because there are no filters set by default
 		filterShowAll: "", // Has no effect because there are no filters set by default
@@ -97,6 +102,8 @@ $(document).ready(function(){
 	});
 });
 ```
+
+
 
 ## What does tableo.jquery.js NOT do?
 Tableo.jquery.js *is not* case sensitive.

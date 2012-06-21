@@ -96,7 +96,7 @@ $(document).ready(function(){
 		filterAttributes: [] // Has no effect because there are no filters set by default
 	});
 });
-
+```
 
 ## What does tableo.jquery.js NOT do?
 Tableo.jquery.js *is not* case sensitive.
